@@ -1,0 +1,48 @@
+.overview {
+  // padding-top: 101px;
+  // padding-bottom: 194px;
+
+  & .box {
+    margin-left: 721px;
+    padding-top: 101px;
+    padding-bottom: 188px;
+  }
+}
+
+.overview .container {
+  position: relative;
+}
+
+.overview .section-title {
+  margin-bottom: 18px;
+}
+
+.overview .text {
+  margin: 0;
+  margin-bottom: 56px;
+  font-size: 20px;
+  line-height: 2.15;
+  text-transform: capitalize;
+}
+
+.overview button {
+  background: rgba(250, 86, 82, 0.15);
+  border-radius: 65px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  padding: 21px 49px 23px 51px;
+
+  color: $subtitle-text-color;
+}
+
+.overview-image {
+  position: absolute;
+  display: block;
+  top: -120px;
+  left: -120px;
+  width: 880px;
+  height: 762px;
+  background-image: url(../../images/overview.svg);
+}

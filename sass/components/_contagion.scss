@@ -1,0 +1,36 @@
+.contagion {
+  text-align: center;
+}
+
+.contagion-list {
+  display: flex;
+  width: 460px;
+}
+
+.contagion .section-title {
+  font-family: $secondary-text-family;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 1.24;
+}
+
+.contagion .text {
+  text-transform: capitalize;
+  max-width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 111px;
+  //   text-align: center;
+
+  font-size: 18px;
+  line-height: 2.15;
+}
+
+.contagion .section-title {
+  margin-bottom: 31px;
+}
+
+.contagion-list .item {
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}

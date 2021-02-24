@@ -1,0 +1,35 @@
+.page-nav {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list .item {
+  color: $title-text-color;
+  margin-left: 48px;
+
+  font-size: 18px;
+  line-height: 1.22;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.page-nav .contacts {
+  color: $accent-color;
+  margin-left: 40px;
+  padding: 16px 45px;
+
+  border: 2px solid $accent-color;
+  border-radius: 46px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: #ff383d;
+}

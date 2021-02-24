@@ -1,0 +1,315 @@
+@charset "UTF-8";
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1436px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #4b4f51;
+  font-family: Gelion, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.section-title {
+  color: #035755;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: "Red Hat Display";
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 1.24;
+  color: #fa5652;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.bcg-box {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 241, 241, 0.5)), color-stop(108.69%, rgba(255, 241, 241, 0)));
+  background: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
+}
+
+@font-face {
+  font-family: 'Gelion';
+  src: url("../fonts/Gelion-Regular.eot");
+  src: local("☺"), url("fonts/Gelion-Regular.woff") format("woff"), url("fonts/Gelion-Regular.ttf") format("truetype"), url("fonts/Gelion-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gelion';
+  src: url("../fonts/Gelion-Medium.eot");
+  src: local("☺"), url("fonts/Gelion-Medium.woff") format("woff"), url("fonts/Gelion-Medium.ttf") format("truetype"), url("fonts/Gelion-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gelion';
+  src: url("../fonts/Gelion-Bold.eot");
+  src: local("☺"), url("fonts/Gelion-Bold.woff") format("woff"), url("fonts/Gelion-Bold.ttf") format("truetype"), url("fonts/Gelion-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  padding-top: 30px;
+}
+
+.page-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.31;
+  text-transform: uppercase;
+  color: #035755;
+}
+
+.page-logo .logo {
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  margin-right: 14px;
+}
+
+.page-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-list .item {
+  color: #035755;
+  margin-left: 48px;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.nav-list .item:hover, .nav-list .item:focus {
+  color: #fb4c47;
+}
+
+.page-nav .contacts {
+  color: #fb4c47;
+  margin-left: 40px;
+  padding: 16px 45px;
+  border: 2px solid #fb4c47;
+  border-radius: 46px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #ff383d;
+}
+
+.section-hero {
+  position: relative;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 300px;
+  padding-bottom: 207px;
+  overflow: hidden;
+}
+
+.section-hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-title {
+  font-family: "Red Hat Display";
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.52;
+  color: #fa5652;
+  margin: 0;
+  margin-bottom: 96px;
+}
+
+.hero-text {
+  font-size: 24px;
+  line-height: 1.9;
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 54px;
+}
+
+.hero-button {
+  display: inline-block;
+  background: #fb4c47;
+  -webkit-box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+  border-radius: 65px;
+  padding: 24px 57px 28px 66px;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.hero-image {
+  position: absolute;
+  top: 56px;
+  left: 805px;
+  width: 1177px;
+  height: 812px;
+}
+
+.overview .box {
+  margin-left: 721px;
+  padding-top: 101px;
+  padding-bottom: 188px;
+}
+
+.overview .container {
+  position: relative;
+}
+
+.overview .section-title {
+  margin-bottom: 18px;
+}
+
+.overview .text {
+  margin: 0;
+  margin-bottom: 56px;
+  font-size: 20px;
+  line-height: 2.15;
+  text-transform: capitalize;
+}
+
+.overview button {
+  background: rgba(250, 86, 82, 0.15);
+  border-radius: 65px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  padding: 21px 49px 23px 51px;
+  color: #fa5652;
+}
+
+.overview-image {
+  position: absolute;
+  display: block;
+  top: -120px;
+  left: -120px;
+  width: 880px;
+  height: 762px;
+  background-image: url(../../images/overview.svg);
+}
+
+.contagion {
+  text-align: center;
+}
+
+.contagion-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 460px;
+}
+
+.contagion .section-title {
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 1.24;
+}
+
+.contagion .text {
+  text-transform: capitalize;
+  max-width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 111px;
+  font-size: 18px;
+  line-height: 2.15;
+}
+
+.contagion .section-title {
+  margin-bottom: 31px;
+}
+
+.contagion-list .item {
+  -webkit-box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+          box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+/*# sourceMappingURL=main.css.map */
